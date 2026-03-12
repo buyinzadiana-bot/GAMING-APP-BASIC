@@ -1,9 +1,9 @@
 package COM.AppGamingBasic.example;
 
 public class GameRunner {
-    SuperMario game;
-    public GameRunner(SuperMario superMario) {
-        this.game = superMario;
+    private final GamingConsole game;
+    public GameRunner(GamingConsole game) {
+        this.game = game;
     }
 
     public void run() {
