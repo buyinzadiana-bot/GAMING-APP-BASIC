@@ -7,6 +7,6 @@ public class Main {
 
         var superMario = new SuperMario();
         var gameRunner = new GameRunner(superMario);
-        gameRunner.run
+        gameRunner.run();
     }
 }
