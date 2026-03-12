@@ -1,6 +1,6 @@
 package COM.AppGamingBasic.example;
 
-public class SuperMario {
+public class SuperMario implements GamingConsole{
 
     public void up() {
         System.out.println("Jump");
